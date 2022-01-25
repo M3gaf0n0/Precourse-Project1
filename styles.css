@@ -13,8 +13,10 @@ body {
   padding: 25px 150px;
 }
 
-footer {
+.footer {
   background-color: #1F2937;
+  justify-content: center;
+  display: flex;
 }
 
 .quote {
@@ -93,4 +95,16 @@ footer {
 
 .hero .hero-img img {
   max-height: 250px;
+}
+
+.footer .copy {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  color: #E5E7EB;
+  height: 100px;
+}
+
+.footer .copy p {
+  align-self: center;
 }
