@@ -162,3 +162,52 @@ body {
   font-weight: 600;
   align-self: center;
 }
+
+.random-info .info-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.random-info .info-title h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.random-info .info-imgs {
+  display: inline-flex;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.random-info .info-art {
+  justify-content: center;
+  margin-right: 25px;
+}
+
+.random-info .info-art .feat-img {
+  border-radius: 10px;
+  max-height: 150px;
+  max-width: 150px;
+  border-style: solid;
+  border-color: #3882F6;
+  margin-left, margin-right: 25px;
+}
+
+.random-info .info-art .feat-img img {
+  width: 145px;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.random-info .info-art .feat-content {
+  max-width: 150px;
+  text-align: center;
+  margin-top: 12px;
+}
