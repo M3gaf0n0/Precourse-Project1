@@ -21,6 +21,7 @@ body {
 
 .quote {
   background-color: #E5E7EB;
+  padding: 100px 200px;
 }
 
 .fixed-header {
@@ -39,6 +40,7 @@ body {
   color: #E5E7EB;
   font-weight: 100;
   padding-right: 25px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .fixed-header a {
@@ -106,5 +108,57 @@ body {
 }
 
 .footer .copy p {
+  align-self: center;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote .autor {
+  font-size: 24px;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: right;
+}
+
+.cta {
+  background-color: #3882F6;
+  margin: 100px;
+  padding: 50px 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta .call-to-action h3 {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.cta .call-to-action p {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.cta .cta-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta .cta-button button {
+  background-color: #3882F6;
+  border-color: #F9FAF8;
+  border-radius: 7px;
+  border-style: solid;
+  color: #F9FAF8;
+  padding: 5px 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   align-self: center;
 }
